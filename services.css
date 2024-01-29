@@ -1,0 +1,141 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Basic styling for the layout */
+#container {
+  display: flex;
+}
+
+#sidebar {
+  background-color: #2c3e50;
+  color: #fff;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar h2 {
+  color: #ecf0f1;
+  margin-bottom: 20px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar li {
+  margin-bottom: 10px;
+}
+
+#sidebar a {
+  display: block;
+  padding: 10px 15px;
+  background-color: #34495e;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#sidebar a:hover {
+  background-color: #2c3e50;
+}
+
+#content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack packages one below another */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+#content h2{
+  color: #2c3e50;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#content p {
+  color: #f39c12;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Additional styling for packages */
+.package {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  width: 100%; /* Take up full width */
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text within packages */
+  position: relative; /* Add relative positioning for the "Book Now" button */
+  overflow: hidden; /* Hide overflowing content */
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transitions for hover effect */
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+.package:hover {
+  transform: translateY(-5px); /* Lift the package on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced box shadow on hover */
+}
+
+.package-content {
+  position: relative;
+}
+
+.package-img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.package-description {
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.package-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.package-price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f39c12;
+}
+.package h3 {
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.book-button {
+  display: inline-block;
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #e67e22;
+}

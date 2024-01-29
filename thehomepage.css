@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.1;
+    background-color: #fff;
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Nav Bar Styles */
+  .split-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(211, 42, 233);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .split-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .right-nav a {
+    color: rgb(10, 252, 211);
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo img {
+    max-height: 80px;
+    margin-right: 10px;
+  }
+  
+  /* Main Content Styles */
+  .title-container {
+    flex: 1; /* To take up the remaining space beside the logo */
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .description h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  .description p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    line-height: 1.3;
+    font-weight: bold;
+    color: #2f4f4f;
+  }
+  /* Main Content Styles */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .image-item1 {
+    flex: 1 1 45%; /* Set flex properties to allow the item to grow, but limit the maximum width to 45% */
+    margin-bottom: 20px;
+  }
+  
+  .image-item2 {
+    flex: 1 1 45%; /* Set flex properties to allow the item to grow, but limit the maximum width to 45% */
+    margin-bottom: 20px;
+    margin-bottom: -20px; /* Add a negative margin to move it upwards */
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-item1 p {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-style: italic;
+    color: #ff0000;
+    text-align: justify;
+    font-weight: bold;
+  }
+  
+  .image-item2 h2 {
+    font-size: 22px;
+    color: #00bfff;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .image-item2 p{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-style: italic;
+    color: #228b22;
+    text-align: justify;
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  

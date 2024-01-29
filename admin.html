@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            color: white;
+            padding-top: 20px;
+        }
+        
+        .sidebar a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        
+        .sidebar a:hover {
+            background-color: #555;
+        }
+        
+        /* Main content */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        
+        /* Header */
+        .header {
+            background-color: #444;
+            color: white;
+            padding: 10px 20px;
+        }
+        
+        /* Page content */
+        .page-content {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Orders</a>
+        <a href="#">Products</a>
+        <a href="#">Customers</a>
+        <a href="#">Settings</a>
+    </div>
+    
+    <div class="content">
+        <div class="header">
+            <h1>Admin Dashboard</h1>
+        </div>
+        
+        <div class="page-content">
+            <!-- Your dashboard content goes here -->
+        </div>
+    </div>
+    
+    <div class="footer">
+        &copy; 2023 Admin Dashboard
+    </div>
+</body>
+</html>
